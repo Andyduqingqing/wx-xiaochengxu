@@ -1,0 +1,29 @@
+.avatar_date {
+  padding: 10rpx;
+}
+
+.avatar_date image {
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+}
+
+.avatar_date text {
+  vertical-align: middle;
+  font-size: 32rpx;
+  margin-left: 10rpx;
+}
+
+.company {
+  margin-left: 10rpx;
+  font-size: 40rpx;
+  font-weight: 700;
+}
+
+
+.content {
+  font-size: 36rpx;
+  text-indent: 36rpx;
+  letter-spacing: 4rpx; /*给字母设置间距，对中文也生效*/
+  /* word-spacing: 50rpx; 给单词设置间距，对中文不生效 */
+}

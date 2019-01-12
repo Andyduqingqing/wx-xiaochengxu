@@ -1,0 +1,19 @@
+.tmpContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.tmpImg {
+  width: 100%;
+  height: 460rpx;
+}
+.star_view_container image {
+  width: 32rpx;
+  height: 32rpx;
+  margin-left: 8rpx;
+  vertical-align: middle;
+}
+.star_view_container text {
+  font-size: 26rpx;
+  margin-left: 8rpx;
+}

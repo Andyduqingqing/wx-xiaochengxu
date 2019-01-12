@@ -1,0 +1,45 @@
+/* pages/detail/detail.wxss */
+.detailContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.detailImg {
+  width: 100%;
+  height: 460rpx;
+}
+.musciImg {
+  position: absolute;
+  top: 200rpx;
+  left: 50%;
+  margin-left: -30rpx;
+  width: 60rpx;
+  height: 60rpx;
+  background: red
+}
+
+.parent {
+  position: relative;
+}
+
+
+.collection_share_container{
+  float: right;
+  margin-right: 20rpx;
+}
+
+.collection_share_container image {
+  width: 90rpx;
+  height: 90rpx;
+  margin-right: 20rpx;
+}
+
+.line {
+  position: absolute;
+  left: 5%;
+  top: 45rpx;
+  z-index: -1;
+  width: 90%;
+  height: 1rpx;
+  background: #eee;
+}
